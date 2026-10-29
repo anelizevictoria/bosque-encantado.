@@ -9,8 +9,8 @@ canvas{width:100%;max-width:900px;aspect-ratio:16/9;image-rendering:pixelated;ba
 #pad{align-items:flex-end}#pad div:last-child{display:grid;grid-template-columns:repeat(2,auto)}button[data-k=D]{grid-area:1/1}button[data-k=J]{grid-area:1/2}button[data-k=S]{grid-area:2/1}button[data-k=A]{grid-area:2/2}button[data-k=U]{grid-area:1/3/3/4;height:auto;background:#ffd24a66;border-color:#ffd24a}
 button{width:58px;height:58px;border-radius:50%;border:2px solid #fff6;background:#ffffff1f;color:#fff;font:bold 24px monospace;touch-action:none}
 button:active{background:#ffffff55}
-#rot{display:none;position:fixed;inset:0;z-index:9;background:#0b0618;color:#ffe9a0;font:bold 18px monospace;text-align:center;align-items:center;justify-content:center;padding:24px;line-height:1.6}
-@media (pointer:coarse) and (orientation:portrait){#rot{display:flex}}
+display  
+ orientation{
 @media (orientation:landscape) and (max-height:600px){canvas{height:100%;width:auto;max-width:100%}#pad{position:fixed;left:0;right:0;bottom:0;width:auto;max-width:none;padding:0 calc(14px + env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) calc(14px + env(safe-area-inset-left,0px));pointer-events:none}#pad button{pointer-events:auto;opacity:.5;width:56px;height:56px}}
 </style></head><body>
 <canvas id="c"></canvas>
